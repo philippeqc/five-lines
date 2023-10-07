@@ -25,3 +25,6 @@ Error remaining:
 4.2.2 Pattern: Specialize method
 `remove(Tile)` becomes `removeLock1` and `removeLock2`
 4.2.4 Rule: Never use switch
+
+apply rule: Never use if with else
+with pattern Push code into classes
