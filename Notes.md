@@ -17,3 +17,8 @@ Recopy `handleInput` to all 4 direction classes.
 Simplified it
 4.1.7 Pattern: Inline method
 in `handleInputs`, call directly `current.handleInput();`
+4.2 Refactoring a large if statement
+Added interface `Tile` and all tile classes. Applied all over.
+Error remaining:
+- The `map` uses number, not classes.
+- `remove`
