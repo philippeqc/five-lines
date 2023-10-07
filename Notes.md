@@ -28,3 +28,5 @@ Error remaining:
 
 apply rule: Never use if with else
 with pattern Push code into classes
+
+apply rule: Inline method
