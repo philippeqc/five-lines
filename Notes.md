@@ -22,3 +22,5 @@ Added interface `Tile` and all tile classes. Applied all over.
 Error remaining:
 - The `map` uses number, not classes.
 - `remove`
+4.2.2 Pattern: Specialize method
+`remove(Tile)` becomes `removeLock1` and `removeLock2`
