@@ -15,3 +15,5 @@ Use `.isRight` and such in `handleInput`
 4.1.5 Pattern: Push code into classes
 Recopy `handleInput` to all 4 direction classes.
 Simplified it
+4.1.7 Pattern: Inline method
+in `handleInputs`, call directly `current.handleInput();`
