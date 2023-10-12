@@ -41,3 +41,6 @@ Performed:
 - Introduce a `isPushable`, push code into class
 - content of `moveHorizontal` => push code into class
 - content of `moveVertical` => push code into class
+
+4.5 Remove dead code
+- Removed `isEdible`, `isPushable`, `isKey1` and `isKey2`
