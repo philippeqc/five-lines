@@ -44,3 +44,7 @@ Performed:
 
 4.5 Remove dead code
 - Removed `isEdible`, `isPushable`, `isKey1` and `isKey2`
+
+5.1. Unifying similar classes
+- Introduce `isStony` and `isBoxy`
+- Remove `isStone` and `isBox`
