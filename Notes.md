@@ -35,3 +35,9 @@ apply rule: Inline method
 Performed:
 - extract method `drawTile`
 - push code into class
+
+4.4 Refactoring pair of complex if statements
+- Introduce a `isEdible`, push code into class
+- Introduce a `isPushable`, push code into class
+- content of `moveHorizontal` => push code into class
+- content of `moveVertical` => push code into class
