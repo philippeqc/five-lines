@@ -30,3 +30,8 @@ apply rule: Never use if with else
 with pattern Push code into classes
 
 apply rule: Inline method
+
+4.3
+Performed:
+- extract method `drawTile`
+- push code into class
