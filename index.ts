@@ -64,8 +64,6 @@ class FallStrategy {
 
 class Air implements Tile {
   isAir() { return true; }
-  isUnbreakable() { return false; }
-  isPlayer() { return false; }
   isLock1() { return false; }
   isLock2() { return false; }
   drawTile(g: CanvasRenderingContext2D, y: number, x: number) { }
@@ -80,8 +78,6 @@ class Air implements Tile {
 
 class Flux implements Tile {
   isAir() { return false; }
-  isUnbreakable() { return false; }
-  isPlayer() { return false; }
   isLock1() { return false; }
   isLock2() { return false; }
   drawTile(g: CanvasRenderingContext2D, y: number, x: number) {
@@ -99,8 +95,6 @@ class Flux implements Tile {
 
 class Unbreakable implements Tile {
   isAir() { return false; }
-  isUnbreakable() { return true; }
-  isPlayer() { return false; }
   isLock1() { return false; }
   isLock2() { return false; }
   drawTile(g: CanvasRenderingContext2D, y: number, x: number) {
@@ -114,8 +108,6 @@ class Unbreakable implements Tile {
 
 class Player implements Tile {
   isAir() { return false; }
-  isUnbreakable() { return false; }
-  isPlayer() { return true; }
   isLock1() { return false; }
   isLock2() { return false; }
   drawTile(g: CanvasRenderingContext2D, y: number, x: number) { }
@@ -130,8 +122,6 @@ class Stone implements Tile {
     this.fallStrategy = new FallStrategy(falling);
   }
   isAir() { return false; }
-  isUnbreakable() { return false; }
-  isPlayer() { return false; }
   isLock1() { return false; }
   isLock2() { return false; }
   drawTile(g: CanvasRenderingContext2D, y: number, x: number) {
@@ -153,8 +143,6 @@ class Box implements Tile {
     this.fallStrategy = new FallStrategy(falling);
   }
   isAir() { return false; }
-  isUnbreakable() { return false; }
-  isPlayer() { return false; }
   isLock1() { return false; }
   isLock2() { return false; }
   drawTile(g: CanvasRenderingContext2D, y: number, x: number) {
@@ -172,8 +160,6 @@ class Box implements Tile {
 
 class Key1 implements Tile {
   isAir() { return false; }
-  isUnbreakable() { return false; }
-  isPlayer() { return false; }
   isLock1() { return false; }
   isLock2() { return false; }
   drawTile(g: CanvasRenderingContext2D, y: number, x: number) {
@@ -193,8 +179,6 @@ class Key1 implements Tile {
 
 class Lock1 implements Tile {
   isAir() { return false; }
-  isUnbreakable() { return false; }
-  isPlayer() { return false; }
   isLock1() { return true; }
   isLock2() { return false; }
   drawTile(g: CanvasRenderingContext2D, y: number, x: number) {
@@ -208,8 +192,6 @@ class Lock1 implements Tile {
 
 class Key2 implements Tile {
   isAir() { return false; }
-  isUnbreakable() { return false; }
-  isPlayer() { return false; }
   isLock1() { return false; }
   isLock2() { return false; }
   drawTile(g: CanvasRenderingContext2D, y: number, x: number) {
@@ -229,8 +211,6 @@ class Key2 implements Tile {
 
 class Lock2 implements Tile {
   isAir() { return false; }
-  isUnbreakable() { return false; }
-  isPlayer() { return false; }
   isLock1() { return false; }
   isLock2() { return true; }
   drawTile(g: CanvasRenderingContext2D, y: number, x: number) {
