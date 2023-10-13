@@ -52,3 +52,8 @@ Performed:
 - Unified `FallingBox` and `Box`
 
 5.1.1 Pattern: Unify similar classes
+
+5.2 Unifying simple conditions
+
+Add method for setting and unsetting the falling condition `drop` and `rest`
+Merge the `if`
