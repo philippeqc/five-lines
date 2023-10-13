@@ -57,3 +57,9 @@ Performed:
 
 Add method for setting and unsetting the falling condition `drop` and `rest`
 Merge the `if`
+
+5.3 Rule: Use Pure Conditions
+
+5.4 Unifying code across classes
+
+5.4.2 Pattern: Introduce Strategy Pattern

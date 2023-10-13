@@ -50,3 +50,15 @@ parenthesis of the `else if`, press Delete, and insert an `||`. Insert an openin
 parenthesis after the `if` and a closing parenthesis before `{`. We always keep
 the parentheses around the expressions to make sure we do not change the
 behavior.
+
+# 5.4.2 INTRODUCE STRATEGY PATTERN
+1 Perform EXTRACT METHOD on the code we want to isolate. If we want to unify it
+with something else, make sure the methods are identical.
+2 Make a new class.
+3 Instantiate the new class in the constructor.
+4 Move the method into the new class.
+5 If there are dependencies on any fields:
+  a Move along any fields to the new class, making accessors for the fields.
+  b Fix errors in the original class by using the new accessors.
+6 Add a parameter to replace this for the remaining errors in the new class.
+7 INLINE METHOD (P4.1.7) to reverse the extraction from step 1.
